@@ -14,7 +14,7 @@ Steam 版《Sanitarium》（AppID **284050**）的「覆盖即用」中文整合
 
 仓库地址：https://github.com/waldere-furnace/Sanitarium-CN
 
-- **推荐**：本仓库 **Releases** 页下载 `SanitariumCN.zip`（约 4.2 MB，解压即覆盖）。
+- 本仓库 ：https://github.com/waldere-furnace/Sanitarium-CN/releases/tag/v1.0.0
 - 网盘备份：
   - 百度网盘：https://pan.baidu.com/s/1M1qIW77FQsJHLwvRldwaDA?pwd=ptmu 提取码 `ptmu`
   - 夸克网盘：https://pan.quark.cn/s/f20b3cb0443a?pwd=fsJs 提取码 `fsJs`

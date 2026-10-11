@@ -3,6 +3,7 @@
 适用于 Steam 版《Sanitarium》（AppID 284050）。补丁**不包含游戏本体**，请先自行购买并安装正版。
 安装方式是一种"覆盖即可"的整合包：解压到游戏根目录，覆盖同名文件，启动游戏就是中文。
 
+GitHub（推荐，Release 下载）：https://github.com/waldere-furnace/Sanitarium-CN/releases/latest
 百度网盘: https://pan.baidu.com/s/1M1qIW77FQsJHLwvRldwaDA?pwd=ptmu 提取码: ptmu
 夸克网盘：https://pan.quark.cn/s/f20b3cb0443a?pwd=fsJs 提取码：fsJs
 ## 补丁包含什么

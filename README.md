@@ -9,7 +9,7 @@ Steam 版《Sanitarium》（AppID **284050**）的「覆盖即用」中文整合
 | 实机：中文对白 | 实机：中文界面 |
 | --- | --- |
 | ![中文对白](screenshots/game-20261011190454_1.jpg) | ![中文界面](screenshots/game-20261011190559_1.jpg) |
-
+演示视频：https://www.bilibili.com/video/BV1VApE6YEx3/
 ## 下载
 
 仓库地址：https://github.com/waldere-furnace/Sanitarium-CN

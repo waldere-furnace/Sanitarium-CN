@@ -1,0 +1,32 @@
+﻿【中文汉化补丁 / Chinese Localization Patch】
+
+Steam 版《Sanitarium》的中文汉化补丁，可与加速/窗口类补丁一起使用，也可以单独使用。
+
+补丁内容：
+
+- 全篇中文（对白、NPC 选项、物件交互、菜单、读档界面、章节标题），长句自动换行不重复；
+- 标点规范化为全角，CG 字幕与《幻音》发言标签排版修复；
+- 各界面字号修复；字体颜色按游戏原版调色板槽位解析（主菜单金色、第一/二章蓝色、第八章对白绿色、最终章主角蓝色等，同一句内不混色）；
+- 自带加速与窗口模块：F6 开关倍速、F7 降低、F8 提高（默认关闭，状态保存），窗口尺寸与自动居中；
+- CG 鼠标跳过保护：除每次启动最先播放的商标/Logo CG 外，其余 CG 不会被鼠标误跳过，键盘跳过仍可用；
+- 黑板与 Morgan 手记的英文首字母解谜文本刻意保留英文（SALVATION / THE YOUTH / KEY HIDES TO / 资源 1068-1075）。
+
+安装：解压 SanitariumCN.zip，覆盖到游戏根目录即可。
+注意：本包内含同名文件 winmm.dll（同一个 Ultimate ASI Loader）、sanitarium_cfg.txt，以及自带实现的 SanitariumSpeed.asi / SanitariumWindow.asi / SanitariumInput.asi，安装时会覆盖上游同名文件；本包的倍速与窗口功能是独立实现，F6/F7/F8 默认按键与上游一致，设置写在 sanitarium_cfg.txt。也就是说装了本包后不需要再单独装加速补丁。
+
+署名：中文译文来源 chinaavg。汉化人员：技术绿色 habit、Shane007；翻译工具 Alexfont；文本翻译 XQ、Jin、Neo、CaesarZX；文本整理 CaesarZX；文本校对 Neo、XQ；文本润色 Bro.ichi。ASI 载入器：Ultimate ASI Loader（ThirteenAG，MIT）。
+  Steam 指南页：https://steamcommunity.com/sharedfiles/filedetails/?id=3764692158
+AI 辅助说明：本补丁程序的代码实现、逆向分析与调试借助 AI 编程代理（Codex + DeepSeek V4 Flash）完成；中文译文沿用 chinaavg（非本次生成），功能由人工在游戏内逐章验证。上游 Sanitarium Steam Language Patch v1.1 亦声明其代码实现与优化借助 AI（ChatGPT）完成。
+
+---
+
+[ENG] Chinese Localization Patch
+
+A Simplified Chinese localization patch for the Steam version of Sanitarium. It can be used together with speed/window patches, or on its own.
+
+Features: full Chinese text (dialogue, NPC options, object interactions, menus, load screen, chapter titles) with automatic wrapping for long CJK lines; full-width punctuation; CG subtitle layout fixes; per-screen font-size fixes; text colours resolved from each font's own palette slots (no mixed colours inside one sentence); built-in speed keys (F6 toggle, F7 slower, F8 faster, off by default, state saved) and window size/centering; mouse-click protection for CG movies (except the first startup logo clip; keyboard skip still works). The English letter-decoding puzzle texts (SALVATION / THE YOUTH / KEY HIDES TO and Morgan's notes, resources 1068-1075) are intentionally left in English.
+
+Installation: extract SanitariumCN.zip and overwrite files in the game folder.
+Note: the package ships files with the same names as the upstream patch (winmm.dll - the same Ultimate ASI Loader - plus sanitarium_cfg.txt and its own SanitariumSpeed.asi / SanitariumWindow.asi / SanitariumInput.asi), so those are overwritten. The speed and window features are independent reimplementations; the default hotkeys (F6/F7/F8) match the upstream patch and settings live in sanitarium_cfg.txt. Installing this package means you no longer need a separate speed patch.
+
+Credits: translation source chinaavg. ASI loader: Ultimate ASI Loader by ThirteenAG (MIT). Code implementation and debugging used an AI coding agent (Codex + DeepSeek V4 Flash); the translation itself is the human-made chinaavg text; the upstream Sanitarium Steam Language Patch v1.1 states its own code and optimization were AI (ChatGPT) assisted.

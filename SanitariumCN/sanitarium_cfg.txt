@@ -1,0 +1,17 @@
+# Sanitarium Chinese Patch
+# Window size is fitted to the desktop work area automatically.
+WindowWidth=1280
+WindowHeight=960
+WindowResizable=0
+Borderless=0
+
+# Global time acceleration. Disabled by default; first F6 enables 2x and saves this setting.
+AnimationSpeed=2
+AnimationSpeedEnabled=0
+AnimationSpeedToggleKey=F6
+AnimationSpeedDecreaseKey=F7
+AnimationSpeedIncreaseKey=F8
+
+# Per process: the first startup/logo video is not mouse-locked; all later videos are locked.
+VideoMouseLock=1
+VideoMouseLockStartupVideos=1
